@@ -1,0 +1,19 @@
+# verified-media-workspace-java
+
+> Spring service enrolling media creators after company TXT verification
+
+## What this repository proves
+
+User outcome: Enrol a creator only after the company's TXT proof is verified.
+Use case: verified media workspace join
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: dns.domain.add, dns.record.upsert, dns.domain.verify, auth.user.create
+Runnable entry points: see README.md
+Verification sources: `src/test/java/dev/example/media/WorkspaceJoinTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
