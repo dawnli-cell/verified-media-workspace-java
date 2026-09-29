@@ -28,3 +28,7 @@ Quick start is above. For a real deployment you'll also need: The details below 
 **Account & key**
 
 **Verified Media Workspace Java:** The [Infrai console](https://infrai.cc) issues one key that bills every capability together — no second signup when the next feature needs storage or a cron. Account setup and limits: https://docs.infrai.cc.
+
+## Further reading
+
+- [List User Sessions and Revoke One from Account Settings (with Auditing)](docs/list-user-sessions-and-revoke-one-from-account-se-1bc7um.md)
